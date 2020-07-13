@@ -33,6 +33,7 @@ jobs:
       run: yarn build 
            
     - name: installing surge
+      
       run: npm install -g surge
       
     - name: Deploying on surge
